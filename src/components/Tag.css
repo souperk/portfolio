@@ -1,0 +1,17 @@
+.tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 12px;
+    border: 1px solid var(--colors-divider);
+
+    padding: 0.25rem 0.5rem;
+}
+
+.tag__icon {
+    object-fit: contain;
+    height: 1.6rem;
+    width: 1.6rem;
+}

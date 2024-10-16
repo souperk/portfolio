@@ -1,0 +1,20 @@
+
+
+.card {
+    background-color: var(--colors-surface);
+
+    border-radius: 4px;
+    border: 1px solid var(--colors-divider);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card__header {
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--colors-divider);
+}
+
+.card__content {
+    padding: 1rem 2rem;
+}

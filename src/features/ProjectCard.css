@@ -1,0 +1,24 @@
+.project-card__header {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.project-card__title {
+    color: var(--colors-primary-400);
+    flex: 1;
+}
+
+.project-card__links > a {
+    font-size: 2rem;
+    color: var(--colors-text);
+}
+
+.project-card__title {
+    font-size: 1.6rem;
+}
+
+.project-card__duration {
+    font-size: 0.8rem;
+    font-family: "Roboto Mono", ui-monospace;
+}

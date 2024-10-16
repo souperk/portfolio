@@ -1,0 +1,29 @@
+
+.contact-page__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+
+    border-radius: 4px;
+    border: 1px solid var(--colors-divider);
+
+    padding: 0.5rem 1rem;
+
+    background-color: var(--colors-surface);
+}
+
+.contact-info__icon {
+    font-size: 2rem;
+}
+
+.contact-info__text {
+    font-size: 1.6rem;
+    color: var(--colors-text);
+}

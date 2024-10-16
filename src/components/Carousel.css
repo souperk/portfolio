@@ -1,0 +1,93 @@
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-auto-rows: 1fr;
+    gap: 0.5rem;
+}
+
+.carousel-item {
+    position: relative;
+
+    cursor: pointer;
+
+    border-radius: 4px;
+    border: 1px solid var(--colors-divider);
+}
+
+.carousel-item__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item__overlay {
+    display: none;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background-color: var(--colors-overlay);
+}
+
+.carousel-item:hover > .carousel-item__overlay {
+    display: block;
+}
+
+.carousel-item__caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    padding: 0.5rem 1rem;
+}
+
+.carousel-item__title {
+    font-size: 1.2rem;
+}
+
+.carousel-item__description {
+    font-family: "Roboto Mono", ui-monospace;
+}
+
+.carousel-modal {
+    position: relative;
+}
+
+.carousel-modal__image {
+    flex: 1;
+    object-fit: contain;
+}
+
+.carousel-modal__caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    min-height: 6rem;
+
+    background-color: var(--colors-overlay);
+
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-modal__description {
+    flex: 1;
+}
+
+.carousel-modal__caption-button {
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+
+.carousel-modal__caption-button:hover {
+    background-color: var(--colors-overlay);
+}
+
