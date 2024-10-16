@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+
 import avatarJpg from "/avatar.jpg"
 
 import "./Introduction.css"
@@ -20,13 +23,13 @@ export function Introduction() {
                     href="https://github.com/souperk"
                     className="introduction__link"
                 >
-                    <img className="introduction__logo" src="/icons/logo-github.png" alt="GitHub"/>
+                    <FontAwesomeIcon className="introduction__logo" icon={faGithub}/>
                 </a>
                 <a
                     href="https://www.linkedin.com/in/kostas-alexopoulos-3aab75120/"
                     className="introduction__link"
                 >
-                    <img className="introduction__logo" src="/icons/logo-linkedin.png" alt="LinkedIn"/>
+                    <FontAwesomeIcon className="introduction__logo" icon={faLinkedin}/>
                 </a>
             </div>
             <div className="introduction__description">

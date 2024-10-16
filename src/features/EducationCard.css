@@ -11,7 +11,7 @@
     grid-area: logo;
 
     border-radius: 8px;
-    border: 1px solid var(--colors-divider);
+    border: 1px solid var(--color-divider);
 
     object-fit: contain;
     width: 6rem;
@@ -21,7 +21,7 @@
 .education-card__title {
     grid-area: title;
     font-size: 1.6rem;
-    color: var(--colors-primary-400);
+    color: var(--color-primary);
 }
 
 .education-card__institution {

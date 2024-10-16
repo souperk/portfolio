@@ -5,13 +5,13 @@
 }
 
 .project-card__title {
-    color: var(--colors-primary-400);
+    color: var(--color-primary);
     flex: 1;
 }
 
 .project-card__links > a {
     font-size: 2rem;
-    color: var(--colors-text);
+    color: var(--color-text);
 }
 
 .project-card__title {

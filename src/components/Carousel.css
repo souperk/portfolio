@@ -11,7 +11,7 @@
     cursor: pointer;
 
     border-radius: 4px;
-    border: 1px solid var(--colors-divider);
+    border: 1px solid var(--color-divider);
 }
 
 .carousel-item__image {
@@ -29,7 +29,7 @@
     left: 0;
     right: 0;
 
-    background-color: var(--colors-overlay);
+    background-color: var(--color-overlay);
 }
 
 .carousel-item:hover > .carousel-item__overlay {
@@ -60,7 +60,7 @@
 }
 
 .carousel-modal__image {
-    flex: 1;
+    flex: 1 1 0;
     object-fit: contain;
 }
 
@@ -71,7 +71,7 @@
     left: 0;
     min-height: 6rem;
 
-    background-color: var(--colors-overlay);
+    background-color: var(--color-overlay);
 
     display: flex;
     flex-direction: row;
@@ -88,6 +88,6 @@
 }
 
 .carousel-modal__caption-button:hover {
-    background-color: var(--colors-overlay);
+    background-color: var(--color-overlay);
 }
 

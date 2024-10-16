@@ -1,10 +1,10 @@
 
 
 .card {
-    background-color: var(--colors-surface);
+    background-color: var(--color-surface);
 
     border-radius: 4px;
-    border: 1px solid var(--colors-divider);
+    border: 1px solid var(--color-divider);
 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 
 .card__header {
     padding: 1rem 2rem;
-    border-bottom: 1px solid var(--colors-divider);
+    border-bottom: 1px solid var(--color-divider);
 }
 
 .card__content {
