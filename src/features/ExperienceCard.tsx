@@ -1,16 +1,14 @@
 import { Experience } from "../api/Experience.ts"
-import { useTags } from "../api/useTags.ts"
 import { Card, CardContent } from "../components/Card.tsx"
+import { TagBySlug } from "./TagBySlug.tsx"
 
 import "./ExperienceCard.css"
-import { Tag, TagContent, TagIcon } from "../components/Tag.tsx"
 
 export interface ExperienceCardProps {
     experience: Experience
 }
 
 export function ExperienceCard({ experience }: ExperienceCardProps) {
-    const tags = useTags()
     return (
         <Card className="experience-card">
             <CardContent className="experience-card__header">
@@ -40,15 +38,7 @@ export function ExperienceCard({ experience }: ExperienceCardProps) {
             </CardContent>
             {experience.tags && (
                 <CardContent className="experience-card__tags">
-                    {experience.tags.map(tag => {
-                        const { title, icon } = tags.find(x => x.slug === tag) ?? { title: tag }
-                        return (
-                            <Tag>
-                                {icon && <TagIcon src={icon}/>}
-                                <TagContent>{title}</TagContent>
-                            </Tag>
-                        )
-                    })}
+                    {experience.tags.map(tag => <TagBySlug key={tag} slug={tag}/>)}
                 </CardContent>
             )}
             {experience.description && (
