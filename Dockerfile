@@ -11,7 +11,7 @@ COPY . .
 RUN set -xe && npm run build
 
 # release
-FROM nginx:1.25.0-alpine as production
+FROM nginx:1.25.0-alpine as release
 ENV NODE_ENV production
 
 
