@@ -1,0 +1,26 @@
+.project-page__header {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-page__title {
+    margin: 0;
+}
+
+.project-page__link {
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+@media (min-width: 1200px) {
+    .project-page__header {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .project-page__links {
+        margin-left: auto;
+    }
+
+}

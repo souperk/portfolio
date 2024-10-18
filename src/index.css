@@ -1,5 +1,5 @@
 :root {
-    --color-body: #242424;
+    --color-body: #121212;
     --color-surface: black;
     --color-divider: rgba(255, 255, 255, 0.12);
     --color-text: rgba(255, 255, 255, 0.87);
@@ -8,6 +8,8 @@
     --color-primary-200: #Ef80FF;
     --color-primary-400: #DF00FF;
     --color-primary: #DF00FF;
+    --font-default: Roboto, sans-serif;
+    --font-monospace: "Roboto Mono", ui-monospace;
 
     font-family: Roboto, sans-serif;
     line-height: 1.5;
@@ -32,6 +34,10 @@ body {
 
 #root {
     width: 100%;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a {

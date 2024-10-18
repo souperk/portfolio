@@ -20,14 +20,16 @@ export function Introduction() {
             />
             <div className="introduction__links">
                 <a
-                    href="https://github.com/souperk"
                     className="introduction__link"
+                    href="https://github.com/souperk"
+                    target="_blank"
                 >
                     <FontAwesomeIcon className="introduction__logo" icon={faGithub}/>
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/kostas-alexopoulos-3aab75120/"
                     className="introduction__link"
+                    href="https://www.linkedin.com/in/kostas-alexopoulos-3aab75120/"
+                    target="_blank"
                 >
                     <FontAwesomeIcon className="introduction__logo" icon={faLinkedin}/>
                 </a>
@@ -35,14 +37,16 @@ export function Introduction() {
             <div className="introduction__description">
                 <p>
                     With over <strong>8 years of professional experience</strong>, I have built a diverse
-                    skill set across a wide range of tools and technologies, focusing on full-stack application development
-                    for enterprise systems. My core strengths lie in applying robust software development principles
-                    and fostering cross-language transferable skills to deliver high-quality, scalable solutions.
-                    </p>
+                    skill set across a wide range of tools and technologies, focusing on full-stack application
+                    development for enterprise systems. My strengths center around a deep commitment to software
+                    development best practices, combined with both broad and specialized knowledge of the tools I use. I
+                    excel in adapting quickly to new challenges and environments, ensuring I deliver high-quality,
+                    scalable solutions that are built to last.
+                </p>
                 <p>
                     I thrive in fast-paced, <strong>agile environments</strong>, where the ability to quickly deliver
                     new features and adapt to evolving requirements is key.
-                    </p>
+                </p>
                 <p>
 
                     Since 2021, I have embraced the <strong>Continuous Architecture</strong> approach,

@@ -19,7 +19,7 @@
 }
 
 .navigation-item[data-active] {
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
 }
 
 @media (min-width: 800px) {

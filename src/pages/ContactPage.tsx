@@ -10,36 +10,51 @@ export function ContactPage() {
         <div className="contact-page">
             <div className="contact-page__info">
                 <h2>Information</h2>
-                <div className="contact-info">
+                <a
+                    className="contact-info contact-info--link"
+                    href="mailto:kalexopoulos@protonmail.com"
+                    target="_blank"
+                >
                     <FontAwesomeIcon icon={faEnvelope} className="contact-info__icon"/>
-                    <a className="contact-info__text" href="mailto:kalexopoulos@protonmail.com">
+                    <span className="contact-info__text">
                         kalexopoulos@protonmail.com
-                    </a>
-                </div>
-                <div className="contact-info">
+                    </span>
+                </a>
+                <a
+                    className="contact-info contact-info--link"
+                    href="tel:+306946501050"
+                    target="_blank"
+                >
                     <FontAwesomeIcon className="contact-info__icon" icon={faPhone}/>
-                    <a className="contact-info__text" href="tel:+306946501050">
+                    <span className="contact-info__text">
                         +306946501050
-                    </a>
-                </div>
+                    </span>
+                </a>
                 <div className="contact-info">
                     <FontAwesomeIcon className="contact-info__icon" icon={faMapLocation}/>
                     <span className="contact-info__text">
                         Athens, Greece
                     </span>
                 </div>
-                <div className="contact-info">
+                <a
+                    className="contact-info contact-info--link"
+                    href="https://github.com/souperk"
+                    target="_blank"
+                >
                     <FontAwesomeIcon className="contact-info__icon" icon={faGithub}/>
-                    <a className="contact-info__text" href="https://github.com/souperk">
+                    <span className="contact-info__text">
                         souperk
-                    </a>
-                </div>
-                <div className="contact-info">
+                    </span>
+                </a>
+                <a className="contact-info contact-info--link"
+                   href="https://www.linkedin.com/in/kostas-alexopoulos-3aab75120/"
+                   target="_blank"
+                >
                     <FontAwesomeIcon className="contact-info__icon" icon={faLinkedin}/>
-                    <a className="contact-info__text" href="https://www.linkedin.com/in/kostas-alexopoulos-3aab75120/">
+                    <span className="contact-info__text">
                         Kostas Alexopoulos
-                    </a>
-                </div>
+                    </span>
+                </a>
             </div>
         </div>
     )

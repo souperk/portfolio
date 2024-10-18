@@ -22,7 +22,6 @@ const Experiences: Experience[] = [
             "Integrated over 500 open-source projects to mayhem’s grey-box fuzzing solution.",
             "Maintained and hardened third-party dependencies (RabbitMQ, PostgreSQL) in accordance with\nGameWarden’s cybersecurity guidelines.",
         ],
-        // tags: ["python", "flask", "sqlalchemy", "typescript", "react", "chakra-ui", "kubernetes", "docker", "helm", "postgresql", "rabbitmq", "gcp", "git"],
         tags: [
             "python", "flask", "sqlalchemy", "celery",
             "typescript", "react", "chakra-ui",
@@ -33,7 +32,7 @@ const Experiences: Experience[] = [
     },
     {
         slug: "sgdigital",
-        position: "Software Engineer",
+        position: "Senior Software Engineer",
         company: "SG Digital",
         companyLogo: "/icons/logo-sgdigital.png",
         start: "Feb 2021",

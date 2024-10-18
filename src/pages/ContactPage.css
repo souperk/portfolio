@@ -17,13 +17,27 @@
     padding: 0.5rem 1rem;
 
     background-color: var(--color-surface);
+    color: var(--color-text);
+}
+
+.contact-info--link:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
 .contact-info__icon {
     font-size: 2rem;
+    color: inherit;
 }
 
 .contact-info__text {
     font-size: 1.2rem;
-    color: var(--color-text);
+    color: inherit;
 }
+
+@media (prefers-color-scheme: light) {
+    .contact-info--link:hover {
+        background-color: var(--color-primary-100);
+    }
+}
+
